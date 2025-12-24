@@ -82,6 +82,7 @@ dependencyResolutionManagement {
                 setM2compatible(true)
             }
         }
+        mavenCentral()
     }
 }
 pluginManagement {
@@ -160,5 +161,7 @@ pluginManagement {
                 setM2compatible(true)
             }
         }
+        mavenCentral()
+        gradlePluginPortal()
     }
 }

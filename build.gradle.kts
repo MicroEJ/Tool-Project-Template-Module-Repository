@@ -5,11 +5,13 @@ plugins {
 group = "com.mycompany"
 version = "0.1.0-RC"
 
+microej{
+    //Uncomment to skip checkers on a dependency
+    //skipCheckers("ej.api:edc:1.3.7", "readme,license,changelog")
+}
+
 dependencies {
-    //Uncomment to skip the checks on this dependency
-    microejModule("ej.api:edc:1.3.7")//?.let {
-    //  microej.skipCheckers(it, "readme,license,changelog")
-    //}
+    microejModule("ej.api:edc:1.3.7")
 
     //Uncomment to include multiple versions of EDC in your project
     //microejModule("ej.api:edc:1.3.3")
