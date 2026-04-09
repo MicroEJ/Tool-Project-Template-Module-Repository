@@ -1,5 +1,5 @@
 plugins {
-    id("com.microej.gradle.module-repository") version "1.5.0"
+    id("com.microej.gradle.module-repository") version "1.6.0"
 }
 
 group = "com.mycompany"
